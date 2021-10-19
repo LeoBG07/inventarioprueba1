@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="grupo 7" content="Dashboard administrativo">
+    <title>Gestión de Proveedores</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" media="screen" />
+    
+
+</head>
+<body>
+    <nav>
+        <table>
+           <td class="nav_left"><a class="hvr-underline-from-center" href="#usuario">Usuario</a></td>
+           <td class="nav_left"><a class="hvr-underline-from-center" href="#productos">Productos</a></td>
+           <td class="nav_left"><a class="hvr-underline-from-center" href="#proveedor">Proveedores</a></td>
+        </table>
+    </nav>
+    <div class="titulo_crear_l">
+        <p >Gestión de Proveedores</p>
+    </div>
+
+    <form action="/my-handling-form-page" method="post">
+
+    <sectio class="buscador section_left">
+        <ul class="label_etiqueta_form">
+            <li >
+                <label for="buscador" >Buscar Proveedor</label>
+                <input placeholder="Escribir Proveedor">
+            </li>
+        </ul>
+    </sectio>
+    
+    <section  class="section_media">
+        <aside class="section_left">
+            <ul class="label_etiqueta_form">
+                <li  >
+                    <label name="name" >Proveedor</label>
+                    <input >
+                </li>
+                <li >
+                    <label name="identificacion" >NIT</label>
+                    <input >
+                </li>
+                <li  >
+                    <label name="celular" >Celular</label>
+                    <input >
+                </li>
+                <li  >
+                    <label name="name" >Correo Electrónico</label>
+                    <input >
+                </li>
+                
+
+        
+                </ul>
+        </aside>
+        <aside class="section_rigth">
+            <button class="btn" type="submit">Crear Proveedor</button>
+        </aside>
+    </section>
+    <section class="botones_bottom">
+        <ul>
+            <li >
+                <table>
+                <td><input type="submit" value="Editar" class="btn" /></td>
+                <td><input type="submit" value="Guardar" class="btn" /></td>  
+                <td><input type="submit" value="Eliminar" class="btn_r" /></td> 
+                
+                </table>
+            </li>
+        </ul>
+    </section>
+    </form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="grupo 7" content="Dashboard administrativo">
+    <title>Administrador</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" media="screen" />
+    <script type="text/javascript" src="../JS/validacion.js"></script>
+
+</head>
+<body>
+    <nav>
+        <table>
+           <td class="nav_left"><a class="hvr-underline-from-center" href="#usuario">Usuario</a></td>
+           <td class="nav_left"><a class="hvr-underline-from-center" href="#productos">Productos</a></td>
+           <td class="nav_left"><a class="hvr-underline-from-center" href="#proveedor">Proveedor</a></td>
+        </table>
+    </nav>
+    <div class="titulo_crear">
+        <p >Gestión de usuarios</p>
+    </div>
+
+    <form action="/my-handling-form-page" method="post">
+
+    <sectio class="buscador section_left">
+        <ul class="label_etiqueta_form">
+            <li >
+                <label for="buscador" >Buscador usuarios</label>
+                <input placeholder="Buscar usuario">
+            </li>
+        </ul>
+    </sectio>
+    
+    <section  class="section_media">
+        <aside class="section_left">
+            <ul class="label_etiqueta_form">
+                <li >
+                    <label name="identificacion" >cedula</label>
+                    <input >
+                </li>
+                <li  >
+                    <label name="name" >Nombre</label>
+                    <input >
+                </li>
+                <li  >
+                    <label name="name" >apellido</label>
+                    <input >
+                </li>
+                <li  >
+                    <label name="celular" >celular</label>
+                    <input >
+                </li>
+
+        
+                </ul>
+        </aside>
+        <aside class="section_rigth">
+            <button class="btn" type="submit">Crear usuario</button>
+        </aside>
+    </section>
+    <section class="botones_bottom">
+        <ul>
+            <li >
+                <table>
+                <td><input type="submit" value="Eliminar" class="btn_r" /></td>
+                <td><input type="submit" value="Guardar" class="btn" /></td>  
+                <td><input type="submit" value="Editar" class="btn" /></td> 
+                
+                </table>
+            </li>
+        </ul>
+    </section>
+    </form>
+</body>
+</html>
